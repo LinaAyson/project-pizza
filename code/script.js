@@ -7,7 +7,8 @@ alert(
 )
 
 // Step 2 - Food choice
-// Your code goes here
+let guestName = prompt(`What is your name?`);
+alert(`Hello ${guestName}`)
 
 // Step 3 - Subtype choice
 // Your code goes here

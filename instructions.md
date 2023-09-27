@@ -30,7 +30,6 @@ A pop-up will appear on your screen with this message, inviting you to start you
 
 <aside>
 💡 Don’t forget to commit and push after each step.
-
 </aside>
 
 ### Step 1 - Welcome and introduction
