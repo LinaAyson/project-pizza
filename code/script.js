@@ -31,7 +31,6 @@ if (foodOrder === "1") {
 }
 alert(`You selected ${selectedOrder}`)
 
-
 // Step 3 - Subtype choice
 // Your code goes here
 let foodItem = "";
@@ -69,16 +68,24 @@ switch (selectedOrder) {
     exit(1)
 };
 
-if (foodItem === "1") {
+if (foodItem === 1) {
   alert(`Good choice! one ${foodMenu[0]} is coming up`)
-} else if (foodItem === "2") {
+} else if (foodItem === 2) {
   alert(`Good choice, one ${foodMenu[1]} is coming up`)
-} else if (foodItem === "3") {
+} else if (foodItem === 3) {
   alert(`Good choice, one ${foodMenu[2]} is coming up`)
 }
 
 // Step 4 - Age
-// Your code goes here
-
+let userAge = prompt(`Is this a kidsmeal or regular meal? Please enter your age below?`)
+if (userAge <= 12) {
+  prompt(`
+One child-sized ${foodMenu[foodItem]} preparing that will be 50 kronas please`
+  )
+} else {
+  prompt(`
+  One regular-sized ${foodMenu[foodItem]} preparing that will be 100 kronas please`
+  )
+}
 // Step 5 - Order confirmation
 // Your code goes here
