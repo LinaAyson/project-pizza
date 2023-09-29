@@ -96,27 +96,6 @@ One child-sized ${foodMenu[foodItem - 1]} preparing that will be 5 euros. \nAre 
 2 - No`
   )
 }
-
-
-
-// // Step 4 - Age
-// let userAge = prompt(`Is this food for a child or an adult? Type your age`)
-// if  (userAge <= 12)  {
-//   let approval = prompt(`
-// One child-sized ${foodMenu[foodItem.toString()]} preparing that will be 5 euros. \nAre you sure you want to order this? \nEnter a number to confirm!
-// 1 - Yes
-// 2 - No`);
-
-//   if (approval === "1") {
-//     alert("Your order is confirmed, thank you!")
-//   } else if (approval === "2") {
-//     alert("Your order is cancelled, welcome back another time")
-//   }
-// } else {
-//   prompt(`
-//   One regular-sized ${foodMenu[foodItem]} preparing that will be 10 euros. Are you sure you want to order this? Enter a number to confirm!`
-//   )
-// }
 // Step 5 - Order confirmation
 // Your code goes here
 
